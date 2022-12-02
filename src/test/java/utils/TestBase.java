@@ -33,7 +33,8 @@ public class TestBase {
 			
 		}
 		public static void openBrowser() {
-			driver.get("https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/");
+			
+			driver.get(prop.getProperty("QAUrl"));
 			
 		}
 		public static void maximizeWindows() throws InterruptedException {
